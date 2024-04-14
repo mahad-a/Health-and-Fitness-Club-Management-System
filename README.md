@@ -5,6 +5,21 @@ exercise routines, fitness achievements, and health statistics. Members can sche
 trainers. As well, Members are able to register for group fitness classes. Trainers have the ability to manage their schedules and view member profiles. 
 Administrative Staff are equipped with features to manage room bookings, monitor fitness equipmentmaintenance, update class schedules, oversee billing, 
 and process payments for membership fees, personal training sessions, and other services.
+
+# Setup - Installation
+1. Install PostgresSQL and setup on local machine
+2. Create a database and name it to your liking
+3. Connect your newly made database within Main: <br />
+   String url = "jdbc:postgresql://localhost:5432/<DATABASE_NAME>"; <br />
+   String user = "<USERNAME>"; <br />
+   String password = "<PASSWORD>"; <br />
+
+   Example values: <br />
+   String url = "jdbc:postgresql://localhost:5432/project_3005"; <br />
+   String user = "postgres"; <br />
+   String password = "comp3005"; <br />
+4. Execute Main.main(), the GUI will launch and you can now enter the program
+
 # Features
 ## Member Functions:
 
