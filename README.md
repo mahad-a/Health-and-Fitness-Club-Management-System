@@ -19,6 +19,7 @@ and process payments for membership fees, personal training sessions, and other 
    String user = "postgres"; <br />
    String password = "comp3005"; <br />
 4. Execute Main.main(), the GUI will launch and you can now enter the program
+5. Alternatively, JAR can be executed after Step 3
 
 # Features
 ## Member Functions:
